@@ -1,0 +1,22 @@
+.login-main-container {
+  background-image: linear-gradient(#0000007e, #0000007e),
+    url("../../assets/background_banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 8%;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-main-container form .input-container input {
+  height: 38px;
+  width: 300px;
+  background-color: rgba(152, 152, 152, 0.6);
+  padding: 1.5rem;
+  font-size: 1.3rem;
+}
+.login-main-container form .input-container input::placeholder {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}

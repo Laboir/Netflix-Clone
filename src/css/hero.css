@@ -1,0 +1,11 @@
+.banner img {
+  mask-image: linear-gradient(to right, transparent, black 75%);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+.card-list::-webkit-scrollbar {
+  display: none;
+}
+.card-list img {
+  cursor: pointer;
+}

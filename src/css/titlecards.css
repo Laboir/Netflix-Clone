@@ -1,0 +1,9 @@
+/* .img-container img {
+  max-width: 100vh !important;
+} */
+.img-container img {
+  transition: all 0.2s ease-in-out;
+}
+.img-container img:hover {
+  transform: scale(1.5);
+}

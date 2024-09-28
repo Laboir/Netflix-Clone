@@ -1,0 +1,92 @@
+@import "./css/header.css";
+@import "./css/hero.css";
+@import "../src/components/Login/login.css";
+@import "./css/titlecards.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  height: 100% !important;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  overflow-x: hidden;
+}
+
+:root {
+  --font-size: 1.7rem;
+  --icon-size: 2.5rem;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-menu {
+  background-color: #141414;
+  box-shadow: 5px 5px 12px 5px rgba(26, 26, 26, 0.604);
+}
+
+@media (max-width: 500px) {
+  .header {
+    width: 100%;
+    padding-inline: 28px;
+    box-shadow: unset;
+    background: transparent;
+  }
+
+  nav > ul {
+    display: none;
+  }
+
+  .more-cards {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+
+  .hero-main-child {
+    margin-top: 11.9rem;
+    row-gap: 2rem;
+  }
+
+  .title-cards,
+  .hero-main-child {
+    margin-left: 3rem;
+  }
+  .title-cards {
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .title-cards h3 {
+    font-size: 2rem;
+  }
+
+  .hero-main-child div img {
+    display: none;
+  }
+
+  .hero-main-child > p {
+    width: 95%;
+    text-align: justify;
+    word-spacing: -2.5px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1130px) {
+  nav > ul {
+    display: none;
+  }
+}
