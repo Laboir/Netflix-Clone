@@ -50,7 +50,7 @@ export default function Player() {
       <div className="player-info flex justify-between w-[90%]  pt-10">
         <p className="text-2xl">{apiData.published_at.slice(0, 10)}</p>
         <p className="text-2xl">{apiData.name.slice(0, 12) + " " + "..."}</p>
-        <p className="text-2xl">{apiData.type}</p>
+        <p className="text-2xl">{apiData.type.slice(0, 12) + " " + "..."}</p>
       </div>
     </div>
   );

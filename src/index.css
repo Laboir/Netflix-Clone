@@ -45,6 +45,11 @@ body {
     background: transparent;
   }
 
+  .banner img {
+    min-height: 325px;
+    object-fit: cover;
+  }
+
   nav > ul {
     display: none;
   }
@@ -57,7 +62,7 @@ body {
   }
 
   .hero-main-child {
-    margin-top: 11.9rem;
+    margin-top: 13.5rem;
     row-gap: 2rem;
   }
 
@@ -93,4 +98,7 @@ body {
   nav > ul {
     display: none;
   }
+}
+.back-button-container img {
+  margin-top: 5rem;
 }
