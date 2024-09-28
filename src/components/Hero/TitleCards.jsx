@@ -57,7 +57,7 @@ export default function TitleCards({ titleHeading, category }) {
               <Link to={`player/${card.id} `}>
                 <div className="img-container relative  ">
                   <img
-                    className="  max-w-[300px]"
+                    className="  max-w-[400px]"
                     src={"https://image.tmdb.org/t/p/w500" + card.backdrop_path}
                     alt={card.original_title}
                   />

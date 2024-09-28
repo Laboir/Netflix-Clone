@@ -83,6 +83,10 @@ body {
     text-align: justify;
     word-spacing: -2.5px;
   }
+
+  .img-container img {
+    max-width: 300px;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 1130px) {
